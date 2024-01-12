@@ -1,0 +1,5 @@
+- Best tutorials for revision and understanding Jquery: https://www.w3schools.com/jquery/jquery_intro.asp
+
+- Crash Video: https://www.youtube.com/watch?v=YFlx1C8XwR0&t=1377s
+
+- $(this) in jq: 15:10

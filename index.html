@@ -9,11 +9,29 @@
     <title>Document</title>
 </head>
 <body>
-    This is my body
+    <p>This is my body1</p>
+    <p>This is my body2</p>
+    <p>This is my body3</p>
+    <p>This is my body4</p>
+    <p>This is my body5</p>
 </body>
 
 <script src="js/jquery-3.7.1.min.js"></script>
 <script>
-    console.log($); //$ is jquery shortcut so if I remove jquery then it won't work 
+
+    $(document).ready(function()
+    {
+        // Jquery code here
+        $('p').click(function(){
+        console.log('You clicked on P');
+        $(this).hide();
+        $('#id').hide();
+        $('.class').hide();
+    });
+
+    });
+    
+    // $('p').click();
+    
 </script>
 </html>
